@@ -1,0 +1,27 @@
+.falck-desktop-view {
+    visibility: visible;
+  }
+
+  .falck-mobile-view {
+    visibility: collapse;
+  }
+
+  @media (min-width: 640px) {
+  .falck-desktop-view {
+    visibility: visible;
+  }
+
+  .falck-mobile-view {
+    visibility: collapse;
+  }
+}
+
+@media (max-width: 640px) {
+  .falck-desktop-view {
+    visibility: collapse;
+  }
+
+  .falck-mobile-view {
+    visibility: visible;
+  }
+}
